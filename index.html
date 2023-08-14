@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="pic">
+      <div class="image">
+        <img src="images/odin_lined.png" alt="odin_logo" />
+        <p>ODIN</p>
+      </div>
+      <div class="footer">
+        photo by
+        <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
+        <a href="https://unsplash.com/">Unsplash</a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="textbox">
+        <p>
+          This is not a real online service! You know you need something like
+          this this in your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up now <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+      <div class="formbox">
+        <form action="#" method="post">
+          <legend>Let's do this!</legend>
+          <div class="cells">
+            <div class="input_cell">
+              <label for="fName">FIRST NAME</label>
+              <input type="text" name="fName" id="fName" />
+            </div>
+            <div class="input_cell">
+              <label for="lName">LAST NAME</label>
+              <input type="text" name="lName" id="lName" />
+            </div>
+            <div class="input_cell">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="input_cell">
+              <label for="pNum">PHONE NUMBER</label>
+              <input type="text" name="pNum" id="pNum" />
+            </div>
+            <div class="input_cell">
+              <label for="password">PASSWORD</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="error"
+              />
+              <p class="valid_text">* Passwords do not match</p>
+            </div>
+            <div class="input_cell">
+              <label for="confirm_password">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                name="confirm_password"
+                id="confirm_password"
+                class="error"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="btn_box">
+        <button>Create Account</button>
+        <p>Already have an account? <span id="log">Log in</span></p>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,149 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    margin: 0;
+}
+caption{
+    padding: 25px 0;
+}
+@font-face {
+    font-family: Norse;
+    src: url(fonts/Norse-Bold.otf);
+}
+.pic{
+    background-image: url(images/nature.jpg);
+    flex: 1;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 650px;    
+}
+.image{
+    display: flex;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;    
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.image img{
+    height: 100px;
+    width: auto;    
+}
+
+.image p{
+    font-size: 100px;
+    font-family: Norse;
+    color: white;
+    margin: 0;
+}
+
+
+.content{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(188, 255, 233)
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    font-size: small;   
+    padding-bottom:10px ;
+    opacity: 0.5;
+}
+
+.footer a:visited{
+    color: white;
+}
+
+/* right side   */
+.textbox{
+    font-weight: bold;
+    max-width: 650px;
+}
+
+.textbox p{
+margin: 0;
+padding: 0 25px;
+}
+
+.textbox p:last-child{
+    padding: 25px;
+}
+
+.formbox{
+    background-color: white;
+    box-shadow: 1px;
+}
+
+.btn_box button{
+    background-color: rgb(0, 95, 0);
+    border-radius: 5px;
+    margin: 20px;
+    color: white;
+    padding: 5px 25px;
+
+}
+
+.btn_box p{
+    padding: 0 25px;
+    margin: 0;
+    font-weight: 600;
+}
+
+#log{
+    color: rgb(0, 95, 0);
+    font-weight: bolder;
+}
+.formbox{
+    padding: 25px 25px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 24, 245, 0.2);
+
+}
+
+legend{
+    padding-bottom: 25px
+}
+
+.cells{
+    display: flex;
+    font-size: 10px;
+    font-weight: bold;
+    flex-wrap: wrap;
+    gap: 25px;
+    
+}
+
+.input_cell{
+min-width: 200px;
+display: flex;
+flex-direction: column;
+}
+input{
+    border: 1px solid #E5E7EB;
+    outline: none;
+    border-radius: 5px;
+}
+input:focus{
+    box-shadow: 0px 3px 15px rgba(0, 24, 245, 0.8);
+    outline: none;
+    border-radius: 5px;
+}
+
+.error{
+    border : 1px solid red;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.valid_text{
+    color: red;
+    margin: 0;
+}
